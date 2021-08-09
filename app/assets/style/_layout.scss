@@ -26,8 +26,10 @@ nav{
 }
 
 .user{
-    padding: 14.5px 32px;
-    margin-top: 363px;
+   
+    position:absolute; 
+    bottom:32px;
+    left:32px;
     .user-info{
         margin-left: 16px;
         .username{
