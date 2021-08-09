@@ -54,6 +54,81 @@
        <div class="col-4">
      <div class="main-menu d-flex">
       <h1 class="main-title fw-bold ">Admin</h1>
+      <!-- Button trigger modal -->
+     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span class="material-icons">
+            add</span> Add New Admin
+    </button>
+  
+   <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New Admin</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h3>Account</h3>
+            <form action="get">
+                <label for="name">Name</label><br>
+                <input id="name" type="text">
+                <label for="email">Email</label><br>
+                <input id="email"type="email">
+            </form>
+            <div class="varifybtn">
+           <h3>Verification</h3>
+           <h4><span class="material-icons">
+            warning</span>Unverified</h4>
+           <button type="button" class="btn btn-light">Send Verification Mail</button>
+            </div>
+            <div class="accessOption">
+            <h3>Access Level</h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>-Choose access level-</option>
+                <option value="1">LV1</option>
+                <option value="2">LV2</option>
+                <option value="3">LV3</option>
+            </select>
+            </div>
+            <div class="formCheckbox">
+            <h3>Custom Access</h3>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Lecture
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                <label class="form-check-label" for="flexCheckChecked">
+                    Coupon
+                </label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Message
+                    </label>
+                 <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Setting
+                        </label>
+                <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Task Menu
+                            </label>
+              </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
     </div>
     </div>
     <div class="col-8">
@@ -208,6 +283,23 @@
       </table>
     </div>
   </div>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
   
 
