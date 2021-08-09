@@ -1,3 +1,20 @@
+
+.main{
+    margin-left: 296px;
+    padding: 32px;
+   
+    .main-title{
+        font-size: $font-size-m;
+        margin-right: 48px;
+        
+    }
+}
+.tools{
+    a{
+        color:$primary;
+    }
+}
+
 .AssignmentContent{
     margin-left: 296px;
 }
