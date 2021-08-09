@@ -87,8 +87,9 @@ nav h2 a {
   color: #212529; }
 
 .user {
-  padding: 14.5px 32px;
-  margin-top: 363px; }
+  position: absolute;
+  bottom: 32px;
+  left: 32px; }
   .user .user-info {
     margin-left: 16px; }
     .user .user-info .username {
