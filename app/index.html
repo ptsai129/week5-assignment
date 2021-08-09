@@ -1,12 +1,126 @@
 ---
-title: 首頁
+title: week5 assignment
 layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
 
-<h1>
-  這是一段話
-</h1>
-
-<div class="box"></div>
+<div class="AssignmentContent d-flex">
+  <div class="container">
+    <div class="row "> 
+<div class="col-4">
+<div class="assignmentList">
+    <div class="dropdown">
+        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          All(4)
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Chapter Assignment2</a></li>
+          <li><a class="dropdown-item" href="#">Chapter Assignment1</a></li>
+          <li><a class="dropdown-item" href="#">Final Assignment</a></li>
+        </ul>
+      </div>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between mb-1">
+            <h5>Chapter Assignment 2</h5>
+            <h6>4 hrs ago</h6>
+          </div>
+          <div class="d-flex w-100 justify-content-between mb-3">
+          <p class="fw-bold">Please check this file…</p>
+          <h6 class="sender">Emily Wang</h6>
+        </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between mb-1">
+            <h5>Chapter Assignment 1</h5>
+            <h6>12 hrs ago</h6>
+          </div>
+          <div class="d-flex w-100 justify-content-between mb-3">
+          <p class=" fw-bold">My Homework</p>
+          <h6 class="sender">David Xu</h6>
+        </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between mb-1">
+            <h5>Final Assignment</h5>
+            <h6>18 hrs ago</h6>
+          </div>
+          <div class="d-flex w-100 justify-content-between mb-3">
+          <p class="fw-bold">Have a problem with this…</p>
+          <h6 class="sender">Tony Wei</h6>
+        </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between mb-1">
+            <h5 >Final Assignment</h5>
+            <h6>19 hrs ago</h6>
+          </div>
+          <div class="d-flex w-100 justify-content-between mb-3">
+          <p class="fw-bold">Did I do it right?</p>
+          <h6 class="sender">Christina Lin</h6>
+        </div>
+        </a>
+      </div>
+</div>
+</div>
+<div class="col-8">
+<div class="assignmentMailbox">
+  <p class="commentnum  mb-2">2 comments</p>
+  <div class="card">
+    <div class="card-header">
+      <small>Chapter Assignment 2 / HTML&CSS</small>
+      <p class="mb-1 fw-bold">Please check this file for me, thanks!</p>
+    </div>
+    <div class="card-body">
+     <div class="card-content d-flex">
+       <div class="content-photo">
+         <img class="photoSize" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true" alt="emilywang">
+       </div>
+       <div class="content-detail border-bottom">
+         <p class="fw-bold mb-1">Emily Wang</p>
+         <p class="contentTime">10:38 AM (4 hours ago)</p>
+         <p class="contentResponse">Hi Teacher, the attached file is my homework of chapter 2. 
+           And here comes a question: Why in the following code the height of the <span class="emphasizeWord">div</span>  is bigger than the height of the <span class="emphasizeWord">img</span>? 
+           There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
+           What is the gap or extra space below image?</p>
+           <a class="btn btn-light border" href="#" download="HW-2-David.zip">HW-2-David.zip</a>
+       </div>
+     </div>
+     <div class="card-content d-flex">
+      <div class="content-photo">
+        <img class="photoSize" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="andychen">
+      </div>
+      <div class="content-detail">
+        <div class="content-tool d-flex justify-content-between">
+        <p class="fw-bold mb-1">Andy Chen (You)</p>
+        <div class="toollinks">
+        <span class="material-icons mr-6">
+          star_border
+          </span>
+        <span class="material-icons">
+            edit
+            </span>
+          </div>
+        </div>
+        <p class="contentTime">13:24 AM (1 hours ago)</p>
+        <p class="contentResponse">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders 
+          you find on letters like g, j, p and q. <br>
+          <br>
+           You can:  <br>
+          <br>
+          • adjust the <span class="emphasizeWord">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="emphasizeWord">middle</span>) or <br>
+          • change the <span class="emphasizeWord">display</span> so it isn’t inline.</p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="buttons d-flex justify-content-end mt-4">
+  <button type="button" class="btn btn-light btnDesign mr-4">Mark as read</button>
+  <button type="button" class="btn btn-success">Reply</button>
+ </div>
+</div>
+  </div>
+</div>
+</div>

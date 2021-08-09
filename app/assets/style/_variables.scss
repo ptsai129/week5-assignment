@@ -1,0 +1,20 @@
+//字型大小
+$font-size-1:16px; 
+$font-size-xs: $font-size-1*0.75;
+$font-size-s: $font-size-1*0.875; 
+$font-size-m: $font-size-1*1.5;
+
+
+//顏色
+$primary:#212529; 
+$secondary:#6C757D; 
+$bg-color:#F8F9FA;
+$border-color:#CED4DA;
+$highlight-color:#198754;
+
+
+@mixin text-hide {
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }

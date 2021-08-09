@@ -1,0 +1,51 @@
+.AssignmentContent{
+    margin-left: 296px;
+}
+.list-group a:hover{
+    background-color: $bg-color;
+}
+.sender{
+    color:$secondary;
+    font-size: $font-size-xs; 
+}
+.card{
+    border: 1px solid $border-color;
+    
+    .card-header{
+        background-color:$bg-color;
+        
+    }
+    .card-body{
+        
+       .content-detail{
+    padding:17px 32px 17px 8px;
+         .contentTime{
+        font-size: $font-size-xs;
+        color:$secondary;
+        }
+          }
+    .content-photo{
+    padding-top: 17px;
+    }
+
+    }
+}
+.commentnum{
+    font-size: $font-size-xs;
+    color: $secondary;
+    text-align: right; 
+}
+.border-bottom{
+    border-bottom:1px solid $border-color;
+}
+
+
+.btnDesign{
+    border: 1px solid $highlight-color;
+    color:$highlight-color;
+}
+
+
+.emphasizeWord{
+    color:$highlight-color;
+}

@@ -1,0 +1,18 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato,sans-serif;
+    line-height: 1.5;
+    font-size: $font-size-1;
+    }
+
+
+a  {
+    text-decoration: none;
+      }
+
+.container{
+   margin:0 auto;
+}

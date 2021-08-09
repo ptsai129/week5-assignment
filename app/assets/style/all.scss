@@ -1,23 +1,7 @@
-$color: #00cc99;
-
-.header {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
-}
+//載入字體
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import "_variables.scss";
+@import "_util.scss";
+@import"_base.scss";
+@import"_layout.scss";
+@import"_assignment.scss";
