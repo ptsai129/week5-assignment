@@ -55,9 +55,9 @@
      <div class="main-menu d-flex">
       <h1 class="main-title fw-bold ">Admin</h1>
       <!-- Button trigger modal -->
-     <button type="button" class="btn btn-light adminBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <span class="material-icons">
-            add</span> Add New Admin
+     <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <h4 class="adminBtn"><span class="material-icons">
+            add</span> Add New Admin</h4>
     </button>
   
    <!-- Modal -->
@@ -93,34 +93,17 @@
             </div>
             <div class="formCheckbox">
             <h3>Custom Access</h3>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Lecture
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                <label class="form-check-label" for="flexCheckChecked">
-                Coupon
-                </label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                    <label class="form-check-label" for="flexCheckChecked">
-                    Message
-                    </label>
-                 <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                        <label class="form-check-label" for="flexCheckChecked">
-                        Setting
-                        </label>
-                <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                            <label class="form-check-label" for="flexCheckChecked">
-                            Task Menu
-                            </label>
-              </div>
-
+            <input type="checkbox" name="Lecture" id="">
+            <label for="Lecture">Lecture</label>
+            <input type="checkbox" name="Coupon" id="">
+            <label for="Coupon">Coupon</label>
+            <input type="checkbox" name="Message" id="">
+            <label for="Message">Message</label>
+            <input type="checkbox" name="Setting" id="">
+            <label for="Setting">Setting</label>
+            <input type="checkbox" name="TaskMenu" id="">
+            <label for="TaskMenu">Task Menu</label>
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
@@ -144,8 +127,10 @@
     </div>
     </div>
     </div>
-    <div class="adminContent main">
-        
+    <div class="adminContent">
+        <div class="container">
+            <div class="row">
+              <div class="col-12">
     <table class="table table-hover">
         <thead>
             <tr>
@@ -281,9 +266,12 @@
             </tr>
         </tbody>
       </table>
+    </div>
+</div>
+</div>
   </div>
   <nav aria-label="Page navigation example">
-    <ul class="pagination">
+    <ul class="pagination justify-content-end">
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
           <span aria-hidden="true">&laquo;</span>
