@@ -1,6 +1,8 @@
 .adminBtn{
     font-size: $font-size-1;
     color:$primary;
+    display: flex;
+    align-items: center;
 }
 
 .adminContent{
@@ -8,4 +10,10 @@
     padding-left: 24px;
     padding-right: 24px;
     margin-top: 48px;
+}
+.pageBorder{
+    border: 1px solid $border-color;
+}
+.page-link{
+    color:$primary;
 }
