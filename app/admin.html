@@ -13,7 +13,7 @@ current: index
       <h1 class="main-title fw-bold ">Admin</h1>
       <!-- Button trigger modal -->
      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <h4 class="adminBtn"><span class="material-icons">
+        <h4 class="adminBtn"><span class="material-icons iconColor">
             add</span> Add New Admin</h4>
     </button>
   
@@ -22,11 +22,11 @@ current: index
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">New Admin</h5>
+          <h2 class="modal-title" id="exampleModalLabel">New Admin</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body ">
-            <h3>Account</h3>
+        <div class="modal-body justify-content-center ">
+            <h3 class="fw-bold formTitle">Account</h3>
             <form action="get">
                 <label for="name">Name</label><br>
                 <input id="name" type="text"><br>
@@ -34,13 +34,13 @@ current: index
                 <input id="email"type="email">
             </form>
             <div class="varifybtn">
-           <h3>Verification</h3>
-           <h4><span class="material-icons">
+           <h3 class="fw-bold formTitle">Verification</h3>
+           <h4><span class="material-icons warnIcon">
             warning</span>Unverified</h4>
            <button type="button" class="btn btn-light btnDesign">Send Verification Mail</button>
             </div>
             <div class="accessOption">
-            <h3>Access Level</h3>
+            <h3 class="fw-bold formTitle">Access Level</h3>
             <select class="form-select" aria-label="Default select example">
                 <option selected>-Choose access level-</option>
                 <option value="1">LV1</option>
@@ -49,7 +49,7 @@ current: index
             </select>
             </div>
             <div class="formCheckbox">
-            <h3>Custom Access</h3>
+            <h3 class="fw-bold formTitle">Custom Access</h3>
             <input type="checkbox" name="Lecture" id="">
             <label for="Lecture">Lecture</label> <br>
             <input type="checkbox" name="Coupon" id="">
