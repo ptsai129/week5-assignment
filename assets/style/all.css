@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-.fw-bold {
-  font-weight: bold; }
-
 .mt-4 {
   margin-top: 16px; }
 
@@ -47,11 +39,9 @@
 .photoSize {
   height: 40px;
   width: 40px;
-  border-radius: 24px 24px 24px 24px; }
-
-.btnDesign {
-  border: 1px solid #198754;
-  color: #198754; }
+  border-radius: 24px 24px 24px 24px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -65,21 +55,19 @@ body {
 a {
   text-decoration: none; }
 
-.container {
-  margin: 0 auto; }
-
 .nav {
   position: fixed;
   min-width: 296px;
   min-height: 100vh;
-  background-color: #F8F9FA;
-  min-height: 100vh; }
+  background-color: #F8F9FA; }
 
 nav h2 a {
   display: block;
   margin-bottom: 27.5px;
   width: 150px;
   height: 35px;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg);
   text-indent: 101%;
   overflow: hidden;
@@ -142,8 +130,9 @@ nav h2 a {
 .border-bottom {
   border-bottom: 1px solid #CED4DA; }
 
-.emphasizeWord {
-  color: #198754; }
+code {
+  color: #198754;
+  background-color: #F8F9FA; }
 
 .adminBtn {
   font-size: 16px;
@@ -158,8 +147,7 @@ nav h2 a {
 .adminContent {
   margin-left: 296px;
   padding-left: 24px;
-  padding-right: 24px;
-  margin-top: 48px; }
+  padding-right: 24px; }
 
 .pageBorder {
   border: 1px solid #CED4DA; }
@@ -175,5 +163,11 @@ nav h2 a {
 
 .formTitle {
   font-size: 20px; }
+
+.modalForm-padding {
+  padding-bottom: 24.5px; }
+
+.mt-50 {
+  margin-top: 50px; }
 
 /*# sourceMappingURL=all.css.map */

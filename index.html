@@ -12,32 +12,46 @@
 </head>
 
 <body>
-  <nav class="nav flex-column ">
-    <h2><a class="mt-10 ml-8" href="#">ANSWER</a></h2>
+  <nav class="nav flex-column">
+    <h2><a class="mt-10 ml-8" href="https://ptsai129.github.io/week5-assignment/">ANSWER</a></h2>
+    <ul class="list-unstyled">
+      <li>
     <a class="nav-link fw-bold" href="#"> <span class="material-icons">
      assessment
      </span>
      Dashboard</a>
+    </li>
+    <li>
      <a class="nav-link fw-bold" href="#">
        <span class="material-icons">
          question_answer
          </span>Question</a>
+    </li>
+    <li>
    <a class="nav-link fw-bold"href="#">
      <span class="material-icons">
        assignment
        </span>Assignment</a>
+    </li>
+    <li>
    <a class="nav-link fw-bold" href="#"><span class="material-icons">
      video_library
      </span>
      Course</a>
-   <a class="nav-link fw-bold" href="#"><span class="material-icons">
+    </li>
+    <li>
+   <a class="nav-link fw-bold" href="https://ptsai129.github.io/week5-assignment/admin"><span class="material-icons">
      supervisor_account
      </span>
      Admin</a>
+    </li>
+    <li>
    <a class="nav-link fw-bold"href="#"><span class="material-icons">
      settings
      </span>
      Settings</a>
+    </li>
+    </ul>
      <div class="user d-flex">
        <img  class="photoSize" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"alt="">
        <div class="user-info">
@@ -83,7 +97,7 @@
 <div class="AssignmentContent d-flex">
   <div class="container">
     <div class="row "> 
-<div class="col-4">
+<div class="col-5">
 <div class="assignmentList">
     <div class="dropdown">
         <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -139,7 +153,7 @@
       </div>
 </div>
 </div>
-<div class="col-8">
+<div class="col-7">
 <div class="assignmentMailbox">
   <p class="commentnum  mb-2">2 comments</p>
   <div class="card">
@@ -156,7 +170,7 @@
          <p class="fw-bold mb-1">Emily Wang</p>
          <p class="contentTime">10:38 AM (4 hours ago)</p>
          <p class="contentResponse">Hi Teacher, the attached file is my homework of chapter 2. 
-           And here comes a question: Why in the following code the height of the <span class="emphasizeWord">div</span>  is bigger than the height of the <span class="emphasizeWord">img</span>? 
+           And here comes a question: Why in the following code the height of the <code>div</code>  is bigger than the height of the <code>img</code>? 
            There is a gap below the image, but it doesn’t seems to be a padding/margin.<br>
            What is the gap or extra space below image?</p>
            <a class="btn btn-light border" href="#" download="HW-2-David.zip">HW-2-David.zip</a>
@@ -182,17 +196,19 @@
         <p class="contentResponse">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders 
           you find on letters like g, j, p and q. <br>
           <br>
-           You can:  <br>
-          <br>
-          • adjust the <span class="emphasizeWord">vertical-align</span> of the image to position it elsewhere (e.g. the <span class="emphasizeWord">middle</span>) or <br>
-          • change the <span class="emphasizeWord">display</span> so it isn’t inline.</p>
+           You can:
+           </p> 
+          <ul>
+          <li>adjust the <code>vertical-align</code> of the image to position it elsewhere (e.g. the <code>middle</code>) or </li>
+          <li>change the <code>display</code> so it isn’t inline.</li>
+          </ul>
       </div>
     </div>
       </div>
     </div>
   </div>
   <div class="buttons d-flex justify-content-end mt-4">
-  <button type="button" class="btn btn-light btnDesign mr-4">Mark as read</button>
+  <button type="button" class="btn btn-light btn-outline-success btnDesign mr-4">Mark as read</button>
   <button type="button" class="btn btn-success">Reply</button>
  </div>
 </div>

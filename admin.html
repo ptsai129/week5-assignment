@@ -12,32 +12,46 @@
 </head>
 
 <body>
-  <nav class="nav flex-column ">
-    <h2><a class="mt-10 ml-8" href="#">ANSWER</a></h2>
+  <nav class="nav flex-column">
+    <h2><a class="mt-10 ml-8" href="https://ptsai129.github.io/week5-assignment/">ANSWER</a></h2>
+    <ul class="list-unstyled">
+      <li>
     <a class="nav-link fw-bold" href="#"> <span class="material-icons">
      assessment
      </span>
      Dashboard</a>
+    </li>
+    <li>
      <a class="nav-link fw-bold" href="#">
        <span class="material-icons">
          question_answer
          </span>Question</a>
+    </li>
+    <li>
    <a class="nav-link fw-bold"href="#">
      <span class="material-icons">
        assignment
        </span>Assignment</a>
+    </li>
+    <li>
    <a class="nav-link fw-bold" href="#"><span class="material-icons">
      video_library
      </span>
      Course</a>
-   <a class="nav-link fw-bold" href="#"><span class="material-icons">
+    </li>
+    <li>
+   <a class="nav-link fw-bold" href="https://ptsai129.github.io/week5-assignment/admin"><span class="material-icons">
      supervisor_account
      </span>
      Admin</a>
+    </li>
+    <li>
    <a class="nav-link fw-bold"href="#"><span class="material-icons">
      settings
      </span>
      Settings</a>
+    </li>
+    </ul>
      <div class="user d-flex">
        <img  class="photoSize" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"alt="">
        <div class="user-info">
@@ -51,7 +65,7 @@
 <div class="main d-flex justify-content-between">
     <div class="container">
       <div class="row">
-       <div class="col-4">
+       <div class="col-6">
      <div class="main-menu d-flex">
       <h1 class="main-title fw-bold ">Admin</h1>
       <!-- Button trigger modal -->
@@ -70,19 +84,19 @@
         </div>
         <div class="modal-body justify-content-center ">
             <h3 class="fw-bold formTitle">Account</h3>
-            <form action="get">
+            <form action="get" class="modalForm-padding">
                 <label for="name">Name</label><br>
                 <input id="name" type="text"><br>
                 <label for="email">Email</label><br>
                 <input id="email"type="email">
             </form>
-            <div class="varifybtn">
+            <div class="varifybtn modalForm-padding">
            <h3 class="fw-bold formTitle">Verification</h3>
            <h4><span class="material-icons warnIcon">
             warning</span>Unverified</h4>
            <button type="button" class="btn btn-light btnDesign">Send Verification Mail</button>
             </div>
-            <div class="accessOption">
+            <div class="accessOption modalForm-padding">
             <h3 class="fw-bold formTitle">Access Level</h3>
             <select class="form-select" aria-label="Default select example">
                 <option selected>-Choose access level-</option>
@@ -105,7 +119,7 @@
             <label for="TaskMenu">Task Menu</label>
             </div>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer mt-50">
           <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
           <button type="button" class="btn btn-success">Add</button>
         </div>
@@ -114,7 +128,7 @@
   </div>
     </div>
     </div>
-    <div class="col-8">
+    <div class="col-6">
      <div class="tools d-flex justify-content-end">
        <a class="mr-8" href="#"><span class="material-icons">
          search
