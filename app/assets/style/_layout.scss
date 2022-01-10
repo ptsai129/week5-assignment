@@ -3,7 +3,7 @@
     min-width: 296px;
     min-height: 100vh;
     background-color: $bg-color;
-    min-height: 100vh;
+   
 }
 
 nav{
@@ -13,6 +13,7 @@ nav{
             margin-bottom: 27.5px;
             width:150px;
             height:35px;
+            object-fit: cover;
             background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg);
             @include text-hide; 
         }
@@ -34,6 +35,7 @@ nav{
         margin-left: 16px;
         .username{
             font-size: $font-size-1;
+            
         }
         .useremail{
             font-size: $font-size-s;

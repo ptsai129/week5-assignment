@@ -56,6 +56,9 @@
     border-bottom:1px solid $border-color;
 }
 
-.emphasizeWord{
+
+
+code{
     color:$highlight-color;
+    background-color:$bg-color;
 }
